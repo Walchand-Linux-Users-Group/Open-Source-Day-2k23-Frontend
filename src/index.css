@@ -93,12 +93,12 @@ body {
   }
   
   .card::before {
-    background: radial-gradient(35vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.03), transparent 40%);
+    background: radial-gradient(60vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.03), transparent 60%);
     z-index: 3;
   }
   
   .card::after {
-    background: radial-gradient(35vw circle at var(--mouse-x) var(--mouse-y), rgba(216, 147, 10, 0.2), transparent 40%);
+    background: radial-gradient(60vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.2), transparent 60%);
     z-index: 1;
   }
   
