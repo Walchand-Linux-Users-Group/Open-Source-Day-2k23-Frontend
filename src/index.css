@@ -39,22 +39,35 @@ body {
     overflow-x: hidden;
   }
   
-  #cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    max-width: 916px;
-    width: calc(100% - 20px);
+  
+  #loader svg {
+    width: calc(100% - 50px);
     justify-content: center;
-    margin: 3rem auto;
   }
+  
+  .video{
+    position: relative;
+    z-index: 10;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .card {
+      width: 80%;
+    }
+  }
+  
+
+
+@media only screen and (min-width:768px){
+
+
   
   #cards:hover > .card::after {
     opacity: 1;
   }
   
   .card {
-    background-color: rgba(255, 255, 255, 0.1);
+     /* background-color: rgba(255, 255, 255, 0.1); */
     border-radius: 10px;
     cursor: default;
     display: flex;
@@ -80,12 +93,12 @@ body {
   }
   
   .card::before {
-    background: radial-gradient(90vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.03), transparent 40%);
+    background: radial-gradient(35vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.03), transparent 40%);
     z-index: 3;
   }
   
   .card::after {
-    background: radial-gradient(90vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.2), transparent 40%);
+    background: radial-gradient(35vw circle at var(--mouse-x) var(--mouse-y), rgba(216, 147, 10, 0.2), transparent 40%);
     z-index: 1;
   }
   
@@ -100,20 +113,4 @@ body {
     position: absolute;
     z-index: 2;
   }
-  
-  #loader svg {
-    width: calc(100% - 50px);
-    justify-content: center;
-  }
-  
-  .video{
-    position: relative;
-    z-index: 10;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .card {
-      width: 80%;
-    }
-  }
-  
+}

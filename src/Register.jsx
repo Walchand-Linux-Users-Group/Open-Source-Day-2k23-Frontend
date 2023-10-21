@@ -1,10 +1,10 @@
-import React from 'react'
+
 import { useState, useEffect } from 'react'
 import styles from './Register.module.css'
 import axios from 'axios'
 import swal from 'sweetalert2'
 
-import { InfinitySpin, ThreeDots } from 'react-loader-spinner'
+import { InfinitySpin} from 'react-loader-spinner'
 
 
 const API = axios.create({
@@ -184,9 +184,9 @@ const Register = () => {
             <div className={styles.head} id='snapRegister'>
                 <h1>Register Here</h1>
             </div>
-            <div id='cards'>
+            {/* <div id='cards'>
 
-                <div className='card'>
+                <div className='card'> */}
 
                     <div className={styles.register} id="register">
                         <form className={styles.form} onSubmit={handleSubmit}>
@@ -342,7 +342,7 @@ const Register = () => {
                         </form>
                     </div>
                 </div>
-            </div></div>
+            // </div></div>
     )
 }
 

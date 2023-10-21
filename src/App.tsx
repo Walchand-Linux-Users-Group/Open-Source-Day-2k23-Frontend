@@ -5,19 +5,22 @@ import Footer from "./Footer";
 import Mid from "./Mid";
 import Register from "./Register";
 import { useEffect } from "react";
+import "./index.css"
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
-      <Navbar2 />
-      <Home />
-      <Mid />
-      <Info />
-      <Register />
-      <Footer />
-    </>
+    <div id="cards">
+      <div className="card">
+        <Navbar2 />
+        <Home />
+        <Mid />
+        <Info />
+        <Register />
+        <Footer />
+      </div>
+    </div>
   );
 }
 
