@@ -11,7 +11,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const isTop = window.scrollY < 100;
+      const isTop = window.scrollY < 20;
       if (isTop !== isScrolled) {
         setIsScrolled(isTop);
       }
@@ -49,7 +49,7 @@ const Navbar = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.5, delay: animationStart }}
+      transition={{ duration: 0.5, delay: animationStart +1.1}}
     >
       <motion.div
         variants={reveal}
@@ -60,9 +60,9 @@ const Navbar = () => {
           type: "tween",
           staggerChildren: 0.1,
           duration: 0.5,
-          delayChildren: animationStart + 0.5,
+          delayChildren: animationStart + 1.1,
         }}
-        className="w-full flex items-center justify-around h-0 fixed top-60 bg-black z-100 navbarnew"
+        className="w-full flex items-center justify-around h-0 fixed top-60 bg-black z-50 navbarnew"
       >
       <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ""}`}>
       

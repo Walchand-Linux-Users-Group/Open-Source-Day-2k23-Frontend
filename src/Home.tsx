@@ -3,10 +3,10 @@ import HeroText from "./HeroText";
 
 function Home() {
   return (
-    <>
+    <div className="topsec">
       <HeroText/>
       <BoatVideo />
-    </>
+    </div>
   );
 }
 

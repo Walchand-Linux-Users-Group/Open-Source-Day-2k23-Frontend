@@ -14,9 +14,12 @@
 }
 
 form {
-    width: 60%;
+    width: 70%;
     color: black;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .reg{
     display: flex;
@@ -40,11 +43,10 @@ form {
 }
 .inputLabels {
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-shadow: 1px 1px 5px #3b3b3b;
     color: wheat;
 }
-
 select.mySelectArrow {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -63,7 +65,6 @@ select.mySelectArrow {
 input,
 select {
     width: 100%;
-    margin: 8px 0 12px 0;
     display: block;
     border: none;
     border-radius: 10px;
@@ -71,7 +72,6 @@ select {
     height: 3rem !important;
     padding: 1rem 0 1rem 0;
     background-color: #ecf0f3;
-    /* box-shadow: inset 6px 6px 6px #ced1d4, inset -6px -6px 6px #fff; */
     color: #000000;
 }
 
@@ -100,7 +100,7 @@ input[type="tel"] {
 
 .submitButton {
     padding: 1rem 0;
-}
+    }
 
 input[type="submit"] {
     width: 100%;
@@ -137,9 +137,5 @@ select {
     .inputLabels{
         font-size: 1rem;
     }
-
-
-
-
 
 }

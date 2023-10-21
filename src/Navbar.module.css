@@ -7,7 +7,7 @@
     height: 7%;
     margin: 0;
     padding: 0 2rem 0 2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     background-color: rgba(38, 38, 38, 0.805);
     backdrop-filter: blur(10px);
     transition: background-color 0.5s ease, backdrop-filter 0.5s ease;
@@ -15,7 +15,7 @@
     border: 2px  solid rgba(255, 170, 0, 0.56);
     /* border-top: none; */
     border-radius:20px 20px;
-    z-index: 1000;
+
     transition: all 0.5s ease;
     
 }
@@ -27,7 +27,6 @@
     /* background-color: #0b0b0b8c; */
     top: 11rem;
     /* border: 0; */
-    z-index: 0;
     transition: all 0.5s ease;
 }
 

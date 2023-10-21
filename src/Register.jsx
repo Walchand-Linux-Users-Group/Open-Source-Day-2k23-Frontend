@@ -190,6 +190,7 @@ const Register = () => {
 
                     <div className={styles.register} id="register">
                         <form className={styles.form} onSubmit={handleSubmit}>
+                            <div>
                             <label htmlFor="name" className={styles.inputLabels}>
                                 {" "}
                                 Name{" "}
@@ -203,7 +204,8 @@ const Register = () => {
 
                                 onChange={handleChange}
                             />
-                            <label htmlFor="email" className={styles.inputLabels}>
+                            </div>
+                            <div><label htmlFor="email" className={styles.inputLabels}>
                                 {" "}
                                 Email ID{" "}
                             </label>
@@ -215,7 +217,8 @@ const Register = () => {
                                 type="email"
 
                                 onChange={handleChange}
-                            />
+                            /></div>
+                            <div>
                             <label htmlFor="phone" className={styles.inputLabels}>
                                 {" "}
                                 Phone Number{" "}
@@ -229,6 +232,8 @@ const Register = () => {
 
                                 onChange={handleChange}
                             />
+                            </div>
+                            <div>
                             <label htmlFor="collegeName" className={styles.inputLabels}>
                                 {" "}
                                 College Name{" "}
@@ -242,6 +247,8 @@ const Register = () => {
                                 onChange={handleChange}
                             />
 
+                            </div>
+                            <div>
                             <label htmlFor="yearOfStudy" className={styles.inputLabels}>
                                 {" "}
                                 Year of Study{" "}
@@ -261,7 +268,9 @@ const Register = () => {
                                     <option value="Other">Other</option>
                                 </select>
                             </div>
-                            <label htmlFor="isDualBooted" className={styles.inputLabels}>
+                            </div>
+                           <div>
+                           <label htmlFor="isDualBooted" className={styles.inputLabels}>
                                 Do you have dual booted laptop ?{" "}
                             </label>
                             <br />
@@ -274,6 +283,7 @@ const Register = () => {
                                     <option value="false">No</option>
                                 </select>
                             </div>
+                           </div>
                             {/* <label htmlFor="transactionId" className={styles.inputLabels}>
                     {" "}
                     Transaction ID{" "}
@@ -286,7 +296,8 @@ const Register = () => {
                     type="text"
                     onChange={handleChange}
                 /> */}
-                            <label htmlFor="referralCode" className={styles.inputLabels}>
+                           <div>
+                           <label htmlFor="referralCode" className={styles.inputLabels}>
                                 {" "}
                                 Referral Code{" "}
                             </label>
@@ -298,6 +309,7 @@ const Register = () => {
                                 type="text"
                                 onChange={handleChange}
                             />
+                           </div>
                             <div className={styles.submitSection}>
                                 {!isLoading && (<div className={styles.submitButton}>
                                     <input type="submit" defaultValue="REGISTER" className='button' />

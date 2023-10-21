@@ -11,8 +11,7 @@ const Info: React.FC = () => {
             </div>
             <div className={styles.text}>
                 <p>
-                    Dummy text! Open Source Day is a celebration of open source where Walchand Linux Users' Group conducts a free-of-cost workshop. Open Source Day is a celebration of open-source where Walchand Linux Users' Group conducts a free-of-cost workshop. Open Source Day is a celebration of open-source where Walchand Linux Users' Group conducts a free of cost workshop.
-                </p>
+                    Open Source Day(OSD) is an annual celebration hosted by the Walchand Linux Users' Group, dedicated to promoting and raising awareness about the power of open source technology. During this event, we offer sessions and hands-on workshops on various open source technologies, completely free of charge. This time we are conducting OSD event on 29th of October and we're really looking forward to see you present there on the same day!  </p>
             </div>
             <div className={styles.imageSmall}>
                 <div>
@@ -24,7 +23,8 @@ const Info: React.FC = () => {
             </div>
             <div className={styles.text}>
                 <p>
-                    Dummy text! Open Source Day is a celebration of open source where Walchand Linux Users' Group conducts a free-of-cost workshop. Open Source Day is a celebration of open-source where Walchand Linux Users' Group conducts a free-of-cost workshop. Open Source Day is a celebration of open-source where Walchand Linux Users' Group conducts a free of cost workshop.
+                    This year in Open Source Day we will be focused on a technology that has gained global prominence in the world of software development: Git. Throughout the sessions, we'll make you familiar with Git and help you master its essential commands, branching, merging, rebasing, etc and discover the prospect of hosting your code on renowned platforms such as GitHub and GitLab.
+                    Join us as we explore the limitless possibilities of open source software and its transformative potential. In this spirit, we cordially invite you to be a part of the Open Source Day!
                 </p>
             </div>
         </div>

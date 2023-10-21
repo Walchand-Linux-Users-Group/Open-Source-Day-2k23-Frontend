@@ -16,9 +16,8 @@
     margin: 0 auto 0rem auto;
     /* background-color: rgba(255, 255, 255, 0.097); */
     border-radius: 3rem;
-    
     position: relative;
-    z-index: 100;
+    z-index: 50;
 }
 .celeb{
     width: 80%;
