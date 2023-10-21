@@ -42,7 +42,7 @@ function HeroText() {
         initial="hiddenVariant"
         animate="revealedVariant"
         transition={{ delay: animationStart + 1.2, duration: 0.5 }}
-        className={"mb-30px w-1/2 <lg:w-1/3 <md:w-1/2 text-20px font-bold text-white leading-tight"+ styles.text}
+        className={"mb-30px w-2/3 <lg:w-2/3 <md:w-2/3 text-20px font-bold text-white leading-tight"+ styles.text}
         
       >
         Open Source Day is a celebration of open-source where Walchand Linux Users' Group conducts a free-of-cost workshop.

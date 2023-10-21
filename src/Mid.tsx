@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Mid.module.css'
 const Mid = () => {
   return (
-    <div className={styles.bg}>
+    <div className={styles.bg} id="mid">
       {/* <img src="https://i.ibb.co/sFCSgHc/OSD-1-1.png" alt="bg" /> */}
       {/* <img src="./assets/OSD.svg" alt="bg" /> */}
 
