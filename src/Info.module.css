@@ -1,20 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@1,900&family=Poppins:ital,wght@0,400;0,600;1,400&family=WindSong:wght@500&display=swap');
 
+/* Global Scope */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+}
 
+.info h1 {
+    margin: 0;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    color: #FF9100;
+}
+
+.imageSmall div,
+.imageSmall img,
+.imageBig,
+.imageBig img {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.pc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mob {
+    display: none;
+}
+
+/* Media Queries */
 @media only screen and (min-width: 768px) {
-
     .info {
-        display: flex;
-        flex-direction: column;
-
-        align-items: center;
-        justify-content: center;
-        text-align: center !important;
-
         width: 100vw;
         padding: 0 20vw;
         height: 100%;
-
         margin: -3rem 0 6rem 0;
     }
 
@@ -24,11 +54,7 @@
         /* font-family: 'Poppins', sans-serif; */
         /* font-family: 'WindSong', cursive; */
         /* font-weight: 1000; */
-        margin: 0;
         font-size: 3rem;
-        text-shadow: 0px 0px 5px rgb(0, 0, 0);
-        
-        color: #FF9100;
     }
 
     .imgSec {
@@ -42,10 +68,7 @@
         gap: 6rem;
     }
 
-
-
     .imageSmall {
-        /* margin-top: 6rem; */
         width: 60%;
         display: flex;
         flex-direction: row;
@@ -56,66 +79,36 @@
         padding: 3rem;
     }
 
-    .imageSmall img {
-        width: 100%;
-        z-index: 2;
-        position: relative;
-    }
-
-
     .imageBig {
         width: 60%;
     }
 
-    .imageBig img {
-        width: 100%;
-        z-index: 2;
-        position: relative;
-    }
-
     .text {
         font-size: 1.5rem;
-        text-align: center;
         font-weight: bold;
-        color: rgb(255, 255, 255);
     }
-     .pc{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .mob{
+
+    .mob {
         display: none;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .pc{
+    .pc {
         display: none;
     }
+
     .info {
-        display: flex;
-        flex-direction: column;
-
-        align-items: center;
-        justify-content: center;
-        text-align: center !important;
-
         width: 100%;
         padding: 0 10vw;
         height: 100%;
-
         margin: 1rem 0 3rem 0;
-
     }
 
     .info h1 {
-        margin: 0;
         font-size: 1.5rem;
-        color: #FF9100;
         text-shadow: 0px 0px 5px rgb(0, 0, 0);
     }
-
 
     .imageBig {
         margin: 1.5rem 0;
@@ -139,20 +132,12 @@
         padding: 1rem;
     }
 
-    .imageSmall img {
-        width: 100%;
-        z-index: 2;
-        position: relative;
-    }
-
     .text {
         font-size: 0.8rem;
-        text-align: center;
         font-weight: normal;
-        color: rgb(255, 255, 255);
     }
 
-    .mob{
+    .mob {
         display: flex;
         justify-content: center;
         align-items: center;
