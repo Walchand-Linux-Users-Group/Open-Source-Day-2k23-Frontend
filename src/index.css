@@ -118,6 +118,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .mobvideo {
+    border-top: 2px solid #fffbf0;
+    border-radius: 10px 10px 0 0;
+  }
   .pc {
     display: none;
   }

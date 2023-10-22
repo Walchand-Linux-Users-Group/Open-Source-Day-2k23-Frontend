@@ -17,7 +17,7 @@ const Mid = () => {
           Walchand Linux Users' Group is a club of Linux and open source enthusiasts established in 2003 from Walchand College of Engineering, Sangli. We in WLUG make students explore all the aspects of FOSS with the huge community of knowledgeable and dedicated people. We conduct various activities throughout the year to promote open source technologies including talks, discussions, bootcamps and competitions.
         </div>
       </div>
-
+      
     </div>
   )
 }
