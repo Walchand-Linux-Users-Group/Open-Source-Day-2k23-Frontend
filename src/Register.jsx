@@ -182,7 +182,8 @@ const Register = () => {
     return (
         <div className={styles.reg}>
             <div className={styles.head} id='snapRegister'>
-                <h1>Get your free tickets !!</h1>
+                {/* <h1>Get your free tickets !!</h1> */}
+                <h1>Registrations are open!!</h1>
             </div>
             <div id='cards'>
 

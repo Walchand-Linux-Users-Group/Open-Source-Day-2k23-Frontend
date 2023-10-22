@@ -1,46 +1,74 @@
-@media only screen and (min-width: 768px) {
-    .hero {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        margin: 3rem 5rem 6rem 5rem;
-    }
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 3rem 5rem 6rem 5rem;
+}
 
+.logo {
+    clip-path: polygon(10% 0,0 10%, 40% 100%,60% 100%, 100% 10%, 90% 0);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0rem auto;
+    border-radius: 3rem;
+    position: relative;
+    z-index: 50;
+    width: 30vw; /* Default width */
+}
+
+.celeb {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-radius: 3rem;
+}
+
+.p0,
+.p1,
+.p2 {
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 70%;
+}
+
+.button {
+    margin-top: 1rem;
+    background-image: linear-gradient(-180deg, #ff9f67, #e66203);
+    border-radius: 3px; /* Changed to 3px for consistency */
+    box-shadow: rgba(61, 61, 61, 0.1) 0 2px 4px;
+    color: #2d2d2d;
+    cursor: pointer;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    height: 3rem;
+    overflow: hidden;
+    padding: 0 1rem;
+    text-align: center;
+    width: 100%;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+@media only screen and (min-width: 768px) {
     .logo {
-        
-        clip-path: polygon(10% 0,0 10%, 40% 100%,60% 100%, 100% 10%, 90% 0);
-        cursor: default;
         width: 30vw;
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto 0rem auto;
-        /* background-color: rgba(255, 255, 255, 0.097); */
-        border-radius: 3rem;
-        position: relative;
-        z-index: 50;
     }
 
     .celeb {
         width: 80%;
-        display: flex;
-        position: relative;
-        justify-content: space-evenly;
-        align-items: baseline;
         margin: -8rem auto 2rem auto;
-        /* background-color: rgba(255, 255, 255, 0.097); */
-        border-radius: 3rem;
-    }
-
-    .p0,
-    .p1,
-    .p2 {
-        cursor: pointer;
-        z-index: 2;
-        position: relative;
     }
 
     .p0 {
@@ -55,36 +83,8 @@
         width: 10%;
     }
 
-    .logo img {
-        width: 100%;
-        z-index: 2;
-        position: relative;
-    }
-
-    .text {
-        text-align: center;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-        width: 70%;
-    }
-
     .button {
-        margin-top: 1rem;
-        background-image: linear-gradient(-180deg, #ff9f67, #e66203);
-        border-radius: 6px;
-        box-shadow: rgba(61, 61, 61, 0.1) 0 2px 4px;
-        color: #2d2d2d;
-        cursor: pointer;
-        font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
         font-size: 1.5rem;
-        font-weight: 700;
-        height: 3rem;
-        overflow: hidden;
-        padding: 0 1rem;
-        text-align: center;
-        width: 100%;
-        border: 0;
-        transition: box-shadow 0.2s;
         margin-bottom: 50px;
     }
 
@@ -95,47 +95,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .hero {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        margin: 3rem 5rem 6rem 5rem;
-        
-    }
-
     .logo {
-        clip-path: polygon(10% 0,0 10%, 40% 100%,60% 100%, 100% 10%, 90% 0);
         width: 60vw;
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto 0rem auto;
-        /* background-color: rgba(255, 255, 255, 0.097); */
-        border-radius: 3rem;
-        position: relative;
-        z-index: 50;
     }
 
     .celeb {
         width: 90%;
-        display: flex;
-        position: relative;
-        justify-content: space-evenly;
-        align-items: baseline;
         margin: 0rem auto 2rem auto;
-        /* background-color: rgba(255, 255, 255, 0.097); */
-        border-radius: 3rem;
-    }
-
-    .p0,
-    .p1,
-    .p2 {
-        cursor: pointer;
-        z-index: 2;
-        position: relative;
     }
 
     .p0 {
@@ -150,27 +116,8 @@
         width: 15%;
     }
 
-
-
-
     .button {
-        margin-top: 1rem;
-        background-image: linear-gradient(-180deg, #ff9f67, #e66203);
-        border-radius: 3px;
-        box-shadow: rgba(61, 61, 61, 0.1) 0 2px 4px;
-        color: #2d2d2d;
-        cursor: pointer;
-        font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
         font-size: 1.2rem;
-        font-weight: 700;
-        height: 3rem;
-        overflow: hidden;
-        padding: 0 1rem;
-        text-align: center;
-        width: 100%;
-        border: 0;
-        transition: box-shadow 0.2s;
-        
         margin-bottom: 4rem;
     }
 }

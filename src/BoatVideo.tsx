@@ -6,7 +6,7 @@ function BoatVideo() {
       muted
       loop
     >
-      <source src="./LD.mp4" type="video/mp4" />
+      <source src="./OSD.mp4" type="video/mp4" />
     </video>
   );
 }

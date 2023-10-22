@@ -6,20 +6,40 @@ const Info: React.FC = () => {
         <div className={styles.info}>
             <h1>WHAT IS OSD?</h1>
             <h1>AND WHAT WILL YOU LEARN?</h1>
+            
+            <div className={styles.pc}>
             <div className={styles.imageBig}>
-                <img src="https://i.ibb.co/MNjkLBr/OSD-1.png" alt="OSD-1" />
+                <img src="./ospc.png" alt="ospc" />
+            </div>
+            </div>
+            <div className={styles.mob}>
+            <div className={styles.imageBig}>
+                <img src="./osmob.png" alt="osmob" />
+            </div>
             </div>
             <div className={styles.text}>
                 <p>
                     Open Source Day(OSD) is an annual celebration hosted by the Walchand Linux Users' Group, dedicated to promoting and raising awareness about the power of open source technology. During this event, we offer sessions and hands-on workshops on various open source technologies, completely free of charge. This time we are conducting OSD event on 29th of October and we're really looking forward to see you present there on the same day!  </p>
             </div>
+            <div className={styles.pc}>
             <div className={styles.imageSmall}>
                 <div>
-                    <img src="https://i.ibb.co/CWRsb6Q/4.png" alt="4" />
+                    <img src="./gitpc.png" alt="gitpc" />
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/3s0QJ9G/3.png" alt="3" />
+                    <img src="./hubpc.png" alt="hubpc" />
                 </div>
+            </div>
+            </div>
+            <div className={styles.mob}>
+            <div className={styles.imageSmall}>
+                <div>
+                    <img src="./gitmob.png" alt="gitmob" />
+                </div>
+                <div>
+                    <img src="./hubmob.png" alt="hubmob" />
+                </div>
+            </div>
             </div>
             <div className={styles.text}>
                 <p>
