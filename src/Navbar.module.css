@@ -133,9 +133,11 @@
     }
     
     .navItems {
+        width: calc(100% - 70px);
+        padding: 0 ;
         display: flex;
         list-style: none;
-        gap: 10px;
+        justify-content: space-evenly;
         font-size: 1rem;
     }
     
@@ -145,7 +147,7 @@
     
     .navItem {
         position: relative;
-        padding: 3px 10px;
+        padding: 3px 3px;
         cursor: pointer;
         color: rgba(255, 255, 255, 0.696);
     }
