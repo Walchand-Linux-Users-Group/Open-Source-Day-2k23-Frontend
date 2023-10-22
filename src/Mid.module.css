@@ -133,22 +133,29 @@
         position: absolute;
         width: 75%;
         right: 2%;
+        top: 63%;
         bottom: 37%;
-        
     }
-
+    /* .reaper {
+        position: absolute;
+        width: 75%;
+        right: 2%;
+        bottom: 15%;
+    } */
     .reaper .text {
         font-family: 'Ubuntu', sans-serif;
         text-align: justify;
         color: rgb(0, 0, 0);
         display: flex;
         padding: 0.5rem 0.7rem 0.5rem 0.7rem;
-        font-size: 0.6rem;
+        font-size: 0.65rem;
         position: absolute;
         background-color: rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(10px);
         border: 1px solid rgb(0, 0, 0);
         border-radius: 10px;
+        /* position: absolute;
+        bottom: 0; */
     }
 
     h1 {

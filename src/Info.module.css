@@ -85,11 +85,14 @@
 
     .text {
         font-size: 1.5rem;
-        font-weight: bold;
     }
 
     .mob {
         display: none;
+    }
+    .text span{
+        font-weight: bold;
+        color:#ffae43
     }
 }
 
@@ -133,8 +136,14 @@
     }
 
     .text {
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: normal;
+        padding: 0 2rem;
+        text-align: justify;
+    }
+    .text span{
+        font-weight: bold;
+        color:#ffae43
     }
 
     .mob {

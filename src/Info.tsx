@@ -19,7 +19,7 @@ const Info: React.FC = () => {
             </div>
             <div className={styles.text}>
                 <p>
-                    Open Source Day(OSD) is an annual celebration hosted by the Walchand Linux Users' Group, dedicated to promoting and raising awareness about the power of open source technology. During this event, we offer sessions and hands-on workshops on various open source technologies, completely free of charge. This time we are conducting OSD event on 29th of October and we're really looking forward to see you present there on the same day!  </p>
+                <span>Open Source Day(OSD)</span> is an annual celebration hosted by the Walchand Linux Users' Group, dedicated to promoting and raising awareness about the power of open source technology. During this event, we offer sessions and hands-on workshops on various open source technologies, completely free of charge. This time we are conducting OSD event on 29th of October and we're really looking forward to see you present there on the same day!  </p>
             </div>
             <div className={styles.pc}>
             <div className={styles.imageSmall}>

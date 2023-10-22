@@ -32,9 +32,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
+  background-image: linear-gradient(180deg, var(--bg-color) 0%, #383737 25%, #141414 60%,#141414 100%);
   color: #a0a5a8;
   overflow-x: hidden;
+  /* cursor:url('./icons8-cursor-48.png'), auto; */
 }
 
 #cards {
@@ -78,12 +80,12 @@ body {
 }
 
 .card::before {
-  background: radial-gradient(90vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.03), transparent 40%);
+  background: radial-gradient(90vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.06), transparent 40%);
   z-index: 3;
 }
 
 .card::after {
-  background: radial-gradient(90vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.2), transparent 40%);
+  background: radial-gradient(90vw circle at var(--mouse-x) var(--mouse-y), rgba(184, 128, 17, 0.6), transparent 40%);
   z-index: 1;
 }
 

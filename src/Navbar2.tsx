@@ -94,7 +94,7 @@ const Navbar = () => {
             <div className={styles.hamburger} onClick={handleMenuClick}>
               ✕
             </div>
-            <li className={`${styles.navItem} ${isScrolled ? styles.none : ""}`} onClick={goHome}>
+            <li className={`${styles.navItem} ${isScrolled ? styles.invisible : ""}`} onClick={goHome}>
               Home
             </li>
             {/* <li className={`${styles.navItem} ${isScrolled ? styles.none : ""}`}>
@@ -107,7 +107,7 @@ const Navbar = () => {
               About Us
             </a>
           </li> */}
-            <li className={`${styles.navItem} ${isScrolled ? styles.none : ""}`} onClick={goMid}>
+            <li className={`${styles.navItem} ${isScrolled ? styles.invisible : ""}`} onClick={goMid}>
 
 
               About Us

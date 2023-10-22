@@ -59,7 +59,7 @@
         position: relative;
         padding: 3px 10px;
         cursor: pointer;
-        color: rgba(255, 255, 255, 0.696);
+        color: rgba(255, 255, 255, 0.8);
     }
     
     .navItem a {
@@ -97,7 +97,7 @@
         align-items: center;
         position: fixed;
         width: 90%;
-        height: 5%;
+        height: 5.5%;
         margin: 0;
         padding: 0 1rem 0 1rem;
         background-color: rgba(38, 38, 38, 0.805);
@@ -129,15 +129,15 @@
     }
     
     .logoImage {
-        max-width: 70px;
+        max-width: 60px;
     }
     
     .navItems {
         width: calc(100% - 70px);
-        padding: 0 ;
+        padding: 0 0.5rem 0 1% ;
         display: flex;
         list-style: none;
-        justify-content: space-evenly;
+        justify-content: space-between;
         font-size: 1rem;
     }
     
@@ -149,7 +149,7 @@
         position: relative;
         padding: 3px 3px;
         cursor: pointer;
-        color: rgba(255, 255, 255, 0.696);
+        color: rgb(255, 255, 255);
     }
     
     .navItem a {
@@ -158,21 +158,9 @@
     }
 
     
-    .navItem::after {
-        content: "";
-        position: absolute;
-        background-color: rgb(255, 255, 255);
-        width: 0%;
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        transition: width 0.2s ease;
-    }
     
-    .navItem:hover::after {
-        width: 100%;
-        right: 0;
-        left: auto;
-    }
     
+}
+.invisible{
+    visibility: hidden;
 }
