@@ -70,6 +70,7 @@
   margin-bottom: 0.5rem;
 }
 
+
 .navli,
 .policies {
   display: flex;
@@ -81,10 +82,19 @@
   color: #ffffff;
 }
 
+
 .navli a,
 .policies a {
   text-decoration: none;
   color: #bfbfbf;
+}
+
+.navli a,
+.policies a,
+.ics a,
+.copy p {
+  text-decoration: none;
+  cursor:inherit;
 }
 
 .navli a:hover,
@@ -92,7 +102,7 @@
   text-shadow: 0 0 0.1px #ffffff;
   color: #ffffff;
   text-decoration: none;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .ics {

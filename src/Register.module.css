@@ -12,6 +12,7 @@
         border: 2px solid rgba(255, 170, 0, 0.56);
         border-radius: 10px;
         background-color: hsla(0, 0%, 0%, 0.1);
+        
     }
 
     form {
@@ -50,6 +51,8 @@
         font-size: 1rem;
         text-shadow: 1px 1px 5px #3b3b3b;
         color: wheat;
+        
+  cursor: url('./cursor.png'), auto !important;
     }
 
     select.mySelectArrow {
@@ -59,7 +62,7 @@
         width: 100%;
         padding: 10px 20px;
         font-size: 22px;
-        cursor: pointer;
+        cursor: url('./point.png'), auto !important;
         background-image: linear-gradient(45deg, transparent 50%, #000000 50%, #5e6669 100%),
             linear-gradient(135deg, #5e6669 0%, #000000 50%, transparent 50%);
         background-position: calc(100% - 20px) center, calc(100% - 10px) center;
@@ -78,6 +81,7 @@
         padding: 1rem 0 1rem 0;
         background-color: #ecf0f3;
         color: #000000;
+        cursor: url('./cursor.png'), auto !important;
     }
 
     input:-webkit-autofill::first-line {
@@ -117,8 +121,8 @@
         padding: 0;
         border: none;
         border-radius: 10px;
-        cursor: pointer;
         transition: all 0.2s ease-in-out;
+        cursor: url('./send2.png'), auto !important;
     }
     select {
         height: 3rem !important;
@@ -189,7 +193,6 @@
         width: 100%;
         padding: 10px 20px;
         font-size: 22px;
-        cursor: pointer;
         background-image: linear-gradient(45deg, transparent 50%, #000000 50%, #5e6669 100%),
             linear-gradient(135deg, #5e6669 0%, #000000 50%, transparent 50%);
         background-position: calc(100% - 20px) center, calc(100% - 10px) center;
@@ -246,7 +249,6 @@
         padding: 0;
         border: none;
         border-radius: 10px;
-        cursor: pointer;
         transition: all 0.2s ease-in-out;
     }
 

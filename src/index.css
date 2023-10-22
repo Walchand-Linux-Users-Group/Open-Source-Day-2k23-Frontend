@@ -23,7 +23,9 @@ body {
   --bg-color: #101010;
   --card-color: rgb(23, 23, 23);
 }
-
+a{
+  cursor: url('./point.png'), auto !important;
+}
 html,
 body {
   margin: 0;
@@ -36,7 +38,7 @@ body {
   background-image: linear-gradient(180deg, var(--bg-color) 0%, #383737 25%, #141414 60%,#141414 100%);
   color: #a0a5a8;
   overflow-x: hidden;
-  /* cursor:url('./icons8-cursor-48.png'), auto; */
+  cursor: url('./cursor.png'), auto !important;
 }
 
 #cards {
@@ -47,6 +49,7 @@ body {
   width: calc(100% - 20px);
   justify-content: center;
   margin: 3rem auto;
+  
 }
 
 #cards:hover>.card::after {
@@ -56,7 +59,6 @@ body {
 .card {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  cursor: default;
   display: flex;
   flex-direction: column;
   position: relative;

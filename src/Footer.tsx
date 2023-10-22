@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             <div className='footer glass'>
                 <div className='wlug-logo padding1rem'>
                     <img src="https://i.ibb.co/51r60WH/logo.png" alt="logo" />
-                    <div>
+                    <div className='copy'>
                         <p>&#169; 2023 WCEWLUG, ALL RIGHTS RESERVED</p>
                     </div>
                 </div>
