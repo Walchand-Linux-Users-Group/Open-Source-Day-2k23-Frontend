@@ -140,7 +140,7 @@
         justify-content: center;
         flex-wrap: wrap-reverse;
         backdrop-filter: blur(3px);
-        border: 2px solid rgba(255, 170, 0, 0.56);
+        border: 1px solid rgba(255, 170, 0, 0.56);
         border-radius: 10px;
         background-color: hsla(0, 0%, 0%, 0.1);
     }
