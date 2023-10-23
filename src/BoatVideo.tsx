@@ -6,6 +6,7 @@ function BoatVideo() {
         autoPlay
         muted
         loop
+        controls
       >
         <source src="./OSD.mp4" type="video/mp4" />
       </video>
