@@ -64,12 +64,14 @@ function HeroText() {
           </div>
         </motion.div>
       </div>
+
+
+
       <div className="mob">
         <div
           className="flex flex-col items-center text-center"
         >
           <div
-
             className="flex flex-col text-3vw md:text-24px font-bold mb-0px pt-50px"
           >
             <div className="pc">
@@ -95,7 +97,6 @@ function HeroText() {
             </div>
           </div>
           <span
-
             className="mb-30px w-2/3 lg:w-2/3 md:w-2/3 text-20px font-bold text-white leading-tight"
           >
             Open Source Day is a celebration of open-source where Walchand Linux Users' Group conducts a free-of-cost workshop.

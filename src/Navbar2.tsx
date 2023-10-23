@@ -54,50 +54,52 @@ const Navbar = () => {
   }
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5, delay: animationStart + 1.1 }}
-    >
-      <motion.div
-        variants={reveal}
-        initial="hiddenVariant"
-        animate="revealedVariant"
-        transition={{
-          ease: "easeIn",
-          type: "tween",
-          staggerChildren: 0.1,
-          duration: 0.5,
-          delayChildren: animationStart + 1.1,
-        }}
-        className="w-full flex items-center justify-around h-0 fixed top-60 bg-black z-50 navbarnew"
-      >
-        <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ""}`}>
-
-          <motion.div variants={reveal} className={styles.logo}>
-            <a
-              href="https://www.wcewlug.org/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="https://i.ibb.co/51r60WH/logo.png"
-                alt="logo"
-                className={styles.logoImage}
-              />
-            </a>
-          </motion.div>
-
-          <ul
-            className={`${styles.navItems} ${showMenu ? styles.active : ""}`}
+    <div>
+      <div className="pc">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: animationStart + 1.1 }}
+        >
+          <motion.div
+            variants={reveal}
+            initial="hiddenVariant"
+            animate="revealedVariant"
+            transition={{
+              ease: "easeIn",
+              type: "tween",
+              staggerChildren: 0.1,
+              duration: 0.5,
+              delayChildren: animationStart + 1.1,
+            }}
+            className="w-full flex items-center justify-around h-0 fixed top-60 bg-black z-50 navbarnew"
           >
-            <div className={styles.hamburger} onClick={handleMenuClick}>
-              ✕
-            </div>
-            <li className={`${styles.navItem} ${isScrolled ? styles.invisible : ""}`} onClick={goHome}>
-              Home
-            </li>
-            {/* <li className={`${styles.navItem} ${isScrolled ? styles.none : ""}`}>
+            <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ""}`}>
+
+              <motion.div variants={reveal} className={styles.logo}>
+                <a
+                  href="https://www.wcewlug.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://i.ibb.co/51r60WH/logo.png"
+                    alt="logo"
+                    className={styles.logoImage}
+                  />
+                </a>
+              </motion.div>
+
+              <ul
+                className={`${styles.navItems} ${showMenu ? styles.active : ""}`}
+              >
+                <div className={styles.hamburger} onClick={handleMenuClick}>
+                  ✕
+                </div>
+                <li className={`${styles.navItem} ${isScrolled ? styles.invisible : ""}`} onClick={goHome}>
+                  Home
+                </li>
+                {/* <li className={`${styles.navItem} ${isScrolled ? styles.none : ""}`}>
             <a
               href="https://www.wcewlug.org/"
               target="_blank"
@@ -107,19 +109,65 @@ const Navbar = () => {
               About Us
             </a>
           </li> */}
-            <li className={`${styles.navItem} ${isScrolled ? styles.invisible : ""}`} onClick={goMid}>
+                <li className={`${styles.navItem} ${isScrolled ? styles.invisible : ""}`} onClick={goMid}>
 
 
-              About Us
+                  About Us
 
-            </li>
-            <li className={styles.navItem} onClick={goRegister}>
-              Register
-            </li>
-          </ul>
-        </nav>
-      </motion.div>
-    </motion.div>
+                </li>
+                <li className={styles.navItem} onClick={goRegister}>
+                  Register
+                </li>
+              </ul>
+            </nav>
+          </motion.div>
+        </motion.div>
+      </div>
+      <div className="mob">
+        
+          <div
+            className="w-full flex items-center justify-around h-0 fixed top-60 bg-black z-50 navbarnew"
+          >
+            <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ""}`}>
+              <div className={styles.logo}>
+                <a href="https://www.wcewlug.org/" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://i.ibb.co/51r60WH/logo.png"
+                    alt="logo"
+                    className={styles.logoImage}
+                  />
+                </a>
+              </div>
+              <ul className={`${styles.navItems} ${showMenu ? styles.active : ""}`}>
+                <div className={styles.hamburger} onClick={handleMenuClick}>
+                  ✕
+                </div>
+                <li
+                  className={`${styles.navItem} ${isScrolled ? styles.invisible : ""}`}
+                  onClick={goHome}
+                >
+                  Home
+                </li>
+                {/* <li className={`${styles.navItem} ${isScrolled ? styles.none : ""}`}>
+          <a href="https://www.wcewlug.org/" target="_blank" rel="noreferrer">
+            About Us
+          </a>
+        </li> */}
+                <li
+                  className={`${styles.navItem} ${isScrolled ? styles.invisible : ""}`}
+                  onClick={goMid}
+                >
+                  About Us
+                </li>
+                <li className={styles.navItem} onClick={goRegister}>
+                  Register
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+      </div>
   );
 };
 
