@@ -297,7 +297,7 @@ const Register = () => {
                     type="text"
                     onChange={handleChange}
                 /> */}
-                           <div>
+                           {/* <div>
                            <label htmlFor="referralCode" className={styles.inputLabels}>
                                 {" "}
                                 Referral Code{" "}
@@ -310,7 +310,7 @@ const Register = () => {
                                 type="text"
                                 onChange={handleChange}
                             />
-                           </div>
+                           </div> */}
                             <div className={styles.submitSection}>
                                 {!isLoading && (<div className={styles.submitButton}>
                                     <input type="submit" defaultValue="REGISTER" className='button' />
