@@ -34,9 +34,10 @@ function App() {
   return (
     <>
 
-      <Loader loading={loading} />
+      {/* <Loader loading={loading} /> */}
 
-      {(!loading) && (
+      {/* {(!loading) && ( */}
+      {1 && (
         <>
           <Navbar2 />
           <Home />
