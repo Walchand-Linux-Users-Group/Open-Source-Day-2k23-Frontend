@@ -6,8 +6,11 @@ const Info: React.FC = () => {
         <div className={styles.info}>
             
             <div className={styles.heading}>
-            <h1>What is OSD?</h1>
+            <h1>What is Open Source Day?</h1>
             </div>
+            {/* <div className={styles.heading}>
+            <h1 className='mob'>What is OSD?</h1>
+            </div> */}
             <div className={styles.pc}>
             <div className={styles.imageBig}>
                 <img src="./ospc.png" alt="ospc" />
