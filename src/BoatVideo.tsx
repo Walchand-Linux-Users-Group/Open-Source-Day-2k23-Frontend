@@ -9,20 +9,6 @@ function BoatVideo() {
       >
         <source src="./OSD.mp4" type="video/mp4" />
       </video>
-
-
-      <div className="mob">
-        
-      <video
-        className="mobvideo"
-        autoPlay
-        muted
-        loop
-        controls
-      >
-        <source src="./OSD.mp4" type="video/mp4" />
-      </video>
-      </div>
     </div>
   );
 }

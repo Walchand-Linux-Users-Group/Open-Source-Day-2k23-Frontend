@@ -4,9 +4,10 @@ import styles from './Info.module.css';
 const Info: React.FC = () => {
     return (
         <div className={styles.info}>
-            <h1>WHAT IS OSD?</h1>
-            <h1>AND WHAT WILL YOU LEARN?</h1>
             
+            <div className={styles.heading}>
+            <h1>What is OSD?</h1>
+            </div>
             <div className={styles.pc}>
             <div className={styles.imageBig}>
                 <img src="./ospc.png" alt="ospc" />
@@ -21,24 +22,35 @@ const Info: React.FC = () => {
                 <p>
                 <span>Open Source Day(OSD)</span> is an annual celebration hosted by the Walchand Linux Users' Group, dedicated to promoting and raising awareness about the power of open source technology. During this event, we offer sessions and hands-on workshops on various open source technologies, completely free of charge. This time we are conducting OSD event on 29th of October and we're really looking forward to see you present there on the same day!  </p>
             </div>
+
+            <div className={styles.heading}>
+            <h1>What will you learn?</h1>
+            </div>
             <div className={styles.pc}>
+                
             <div className={styles.imageSmall}>
                 <div>
                     <img src="./gitpc.png" alt="gitpc" />
+                </div><div>
+                    <img src="./labpc.png" alt="labpc" />
                 </div>
                 <div>
                     <img src="./hubpc.png" alt="hubpc" />
                 </div>
+                
             </div>
             </div>
             <div className={styles.mob}>
             <div className={styles.imageSmall}>
                 <div>
                     <img src="./gitmob.png" alt="gitmob" />
+                </div><div>
+                    <img src="./labpc.png" alt="labpc" />
                 </div>
                 <div>
                     <img src="./hubmob.png" alt="hubmob" />
                 </div>
+                
             </div>
             </div>
             <div className={styles.text}>
